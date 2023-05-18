@@ -158,9 +158,9 @@ python evaluate.py --mode=test --root /path/to/dataset_root/ --ckpt_path /path/t
 
 We are preparing a script for generating these visualizations:
 
- ````
- Code for qualitative results coming soon
- ````
+
+ ###### Code for qualitative results coming soon
+
 ![image](https://github.com/Petrichor625/Map-Free-Behavior-Aware-Model/blob/main/Figures/Qualified%20result_1.png)
 
 
