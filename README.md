@@ -15,7 +15,7 @@ The model install in Ubuntu 20.04, cuda11.7
 **1.Clone this repository**: clone our model use following code 
 
 ```
-git clone https://github.com/xxxxxxxxxx
+git clone https://github.com/Petrichor625/Map-Free-Behavior-Aware-Model.git
 cd Behavior_aware file
 ```
 
