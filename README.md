@@ -6,7 +6,7 @@ This repository contains the official implementation of  Towards Efficient and R
 
 The burgeoning field of autonomous driving has amplified the need for accurate and reliable trajectory prediction models to ensure the safe and efficient navigation of autonomous vehicles in complex traffic environments. This study introduces a novel map-free and behavior-aware trajectory prediction model that addresses the challenges associated with accurately predicting the trajectories of road users in dynamic traffic scenarios. Our proposed model eliminates the need for costly high-definition (HD) maps and manual annotation by leveraging historical trajectory data and a dynamic geometric graph-based method to capture continuous driving behavior. Incorporating a sophisticated adaptive structure-aware interactive graph convolutional network, our model effectively extracts the positional and behavioral features and captures the human-computer interactions of other road users while preserving their spatial and temporal dependencies. We further enhance the model's efficiency by employing the advanced linear attention mechanism, allowing for faster and more precise predictions with fewer parameters.  Our model demonstrates robustness and adaptability on the Argoverse 1.0 dataset, achieving state-of-the-art results without the need for additional information such as HD maps or vectorized maps. Importantly, our approach maintains competitive performance even with substantial missing data, outperforming most top-25 state-of-the-art baselines.
 
-
+![image](https://github.com/Petrichor625/Map-Free-Behavior-Aware-Model/blob/main/Figures/Framework_final_final.png)
 
 ## Install
 
@@ -161,7 +161,7 @@ We are preparing a script for generating these visualizations:
  ````
  Code for qualitative results coming soon
  ````
-
+![image](https://github.com/Petrichor625/Map-Free-Behavior-Aware-Model/blob/main/Figures/Qualified%20result_1.png)
 
 
 
