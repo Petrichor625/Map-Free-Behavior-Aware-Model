@@ -163,8 +163,14 @@ We are preparing a script for generating these visualizations:
 
 ![image](https://github.com/Petrichor625/Map-Free-Behavior-Aware-Model/blob/main/Figures/Qualified%20result_1.png)
 
+## Main contributions
+1. We present an efficient map-free framework, eliminating the need for high-cost HD maps and drastically reducing the number of parameters.
 
+2. We introduce a novel dynamic geometric graph approach that encapsulates continuous driving behavior without the need for manual labeling. Incorporating centrality metrics and behavior-aware criteria inspired by traffic psychology, decision-making theory, and driving dynamics, our model effectively represents the continuous nature of driving behavior, offering enhanced flexibility and accuracy. 
 
+3. The model features an adaptive graph convolutional network, taking cues from crystal lattice structures, which dynamically processes interactions of road users and their spatio-temporal relationships. This network self-adjusts to real-time traffic conditions, enhancing adaptation to diverse scenarios and complex driving behaviors.
+
+4. Our model surpasses top baseline models by nearly 10% using the Argoverse 1.0 dataset. Remarkably, it sustains competitive performance even when faced with 25% to 50% missing data, outperforming the majority of top-25 baseline models, and demonstrating its robustness in a variety of traffic conditions.
 
 ## Conclusion
 
