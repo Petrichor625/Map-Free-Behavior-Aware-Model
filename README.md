@@ -46,7 +46,7 @@ conda install pytorch-lightning==1.5.2 -c conda-forge
 
 **3.download Argoverse Dataset 1.1**
 
-.Before starting the training process, you need to prepare the dataset and follow the steps below.
+Before starting the training process, you need to prepare the dataset and follow the steps below.
 
 Argoverse provide both the full dataset and the sample version of the Argoverse dataset 1.1 for testing purposes.We will train and tese our models in the Argoverse.Please download **Argoverse Motion Forecasting v1.1** and **HD maps** files in [Argoverse 1.1](https://www.argoverse.org/av1.html#forecasting-link)
 
